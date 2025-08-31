@@ -44,7 +44,7 @@ Aprender a **crear y validar** un recurso FHIR tipo **Patient** en formato JSON.
     Accede al validador online de FHIR:  
 👉 [FHIR Validator](https://validator.fhir.org/)
 
-3. Copia y pega el JSON en el validador para comprobar que cumple con la especificación.
+3. Copia y pega el JSON en el validador para comprobar que cumple con la especificación. En caso que no cumple y se presente un error deberá corregirlo, tener en cuenta que cuando el JSON se encuentra OK ya no le saldrá ninguna alerta o observación.
 
 ### ✅ Resultado esperado
 
