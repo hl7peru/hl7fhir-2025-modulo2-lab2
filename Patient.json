@@ -1,0 +1,50 @@
+{
+    "resourceType": "Patient",
+    "id": "patient-example-1",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Paciente: Sandra Portocarrero (Femenino), nacida el 12/03/1986. DNI: 87654321.</div>"
+    },
+    "identifier": [
+      {
+        "use": "official",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "MR"
+              
+            }
+          ],
+          "text": "Documento Nacional de Identidad (DNI)"
+        },
+        "system": "http://reniec.gob.pe/dni",
+        "value": "3546001",
+        "assigner": { "display": "RENIEC" }
+      }
+    ],
+    "name": [
+      { "use": "official",
+        "family": "Portocarrero", 
+        "given": ["Sandra"] }
+    ],
+    "gender": "female",
+    "birthDate": "1986-03-12",
+  "telecom" : [{
+      "use" : "home"
+    },
+    {
+      "system" : "phone",
+      "value" : "2016500",
+      "use" : "work",
+      "rank" : 1
+    },
+    {
+      "system" : "phone",
+      "value" : "(51) 992842072",
+      "use" : "mobile",
+      "rank" : 2
+    }
+    
+    ]
+  }
