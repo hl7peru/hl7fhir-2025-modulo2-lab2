@@ -1,0 +1,32 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-example-1",
+"text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Paciente: Enrique Melendez (DNI: 44147488)</div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "http://registro.reniec.gob.pe/dni",
+      "value": "44147488"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Melendez",
+      "given": ["Enrique"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1986-11-13"
+}
